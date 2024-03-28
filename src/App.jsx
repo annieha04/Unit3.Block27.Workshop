@@ -4,7 +4,7 @@ import Authenticate from './ components/Authenticate';
 import SignUpForm from './ components/SignUpForm';
 
 function App() {
-  const [count, setCount] = useState(null);
+  const [token, setToken] = useState(null);
 
   return (
     <>
